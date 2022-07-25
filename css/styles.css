@@ -127,6 +127,10 @@ img {
   color: var(--accent-color);
 }
 
+.site-nav-link.current {
+  color: var(--accent-color);
+}
+
 /* .site-nav-link:active {
   color: var(--accent-color);
 }
@@ -348,7 +352,7 @@ img {
 .team-wrapper {
   text-align: center;
   padding-top: 30px;
-  padding-bottom: 16px;
+  padding-bottom: 30px;
   padding-left: 5px;
   padding-right: 5px;
 
@@ -366,7 +370,6 @@ img {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  padding-bottom: 30px;
 }
 
 .socials-link {
@@ -399,6 +402,11 @@ img {
   font-size: 16px;
   font-weight: 500;
 }
+
+.section .section-text {
+  margin-bottom: 16px;
+}
+
 .container > .section-title {
   margin-bottom: 50px;
 
